@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_extensions',
+    'django_extensions', # Throwing an error in pipeline
     'core',
     'rest_framework',
     'rest_framework.authtoken',
