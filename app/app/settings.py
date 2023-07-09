@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_extensions',
+    # TODO: Getting error when enabled in pipeline. Need to fix later
+    # 'django_extensions',
     'core',
     'rest_framework',
     'rest_framework.authtoken',
